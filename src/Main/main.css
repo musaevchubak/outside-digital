@@ -1,0 +1,187 @@
+.btn {
+    color: #ffff;
+    background-color: #FF5E56;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.modal__title {
+    width: 100%;
+}
+
+.modal__description {
+    padding-top: 20px;
+    color: #808080;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.modal__heading{
+    font-size: 28px;
+    color: #000;
+    font-weight: 500;
+}
+
+.modal__label-monthly-salary {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 55px;
+}
+
+.input__data-monthly-salary {
+    /*color: #ffff;*/
+    width: 450px;
+    height: 35px;
+    border-radius: 3px;
+    border: 2px solid #DFE3E6;
+    padding: 8px;
+    /*margin-top: 13px;*/
+}
+
+.modal__calculate-monthly-salary {
+    color: #EA0029;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.modal__calculate-monthly-salary:hover {
+    color: #F53A31;
+}
+
+.modal__calculate-monthly-salary:active {
+    color: #EA0029;
+}
+
+.wrapper-payment-term {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper-payment-term__item-term {
+    border: 2px solid red;
+    border-radius: 26px;
+    padding: 7px;
+    background-color: #EEF0F2;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    margin-right: 25px;
+}
+.modal__what-we-reduce-text {
+    align-items: center;
+    font-weight: 500;
+}
+
+.wrapper-payment-term__item-payment {
+    border: 2px solid red;
+    border-radius: 25px;
+    background-color: #FF5E56;
+    border: none;
+    padding: 10px;
+    color: #ffff;
+    font-weight: 400;
+    margin-right: 25px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.wrapper-payment-term__item-payment:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.modal__section-what-we-reduce {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.add-early-payment{
+    width: 440px;
+    color: #ffff;
+    background-color: #FF5E56;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 13px;
+    border: none;
+    margin-top: 55px;
+    cursor: pointer;
+}
+
+.add-early-payment:hover {
+    background-color: #EA0029;
+}
+
+.add-early-payment:active {
+    background-color: #EA0029;
+}
+
+.modal__cross {
+    position: absolute;
+    top: 16px;
+    left: 88%;
+    cursor: pointer;
+}
+
+.modal__total--calculation {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.test {
+    line-height: 40px;
+}
+
+.modal__total-amount-deposited {
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.modal__description-year {
+    padding-left: 20px;
+    color: #DFE3E6;
+}
+
+.modal__description-input-checkbox{
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+}
+
+
+input[type=checkbox]:checked {
+    -webkit-appearance: none;
+    background-color: #FF5E56;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid gray;
+    vertical-align: -2px;
+    color: #FFFFFF;
+}
+
+input[type="checkbox"]::before {
+    content: "✔";
+    position: absolute;
+    font-size: 24px;
+    right: -2px;
+    top: -0.3em;
+}
+
+
