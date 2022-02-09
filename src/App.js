@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <button className="btn" onClick={() => setModalActive(true)}>Налоговый вычет</button>
+      <button className="deductionButton" onClick={() => setModalActive(true)}>Налоговый вычет</button>
       <Main modalActive={modalActive} closeModal={ closeModal }/>
     </div>
   );

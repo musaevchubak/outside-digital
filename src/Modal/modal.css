@@ -1,7 +1,7 @@
 .modal {
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.4);
+    background: darkgray;
     position: fixed;
     top: 0;
     left: 0;
@@ -16,6 +16,7 @@
 .modal.active {
     opacity: 1;
     pointer-events: all;
+    overflow: scroll;
 }
 
 .modal__content {
@@ -26,6 +27,63 @@
     transition: 0.4s all;
     width: 488px;
     margin-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+    .modal__content {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+    .add-early-payment {
+        width: 50%;
+        align-self: center;
+        position: fixed;
+        bottom: 80px;
+    }
+    .modal__title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .modal__section-your-monthly-salary {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .input__data-monthly-salary {
+        width: 100%;
+    }
+    .modal__section-what-we-reduce {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .wrapper-payment-term {
+        margin-top: 35px;
+    }
+    .wrapper-payment-term__item-payment {
+        margin-left: 0;
+    }
+    .add-early-payment {
+        width: 93%;
+        align-self: center;
+        position: fixed;
+        bottom: 25px;
+    }
+    .modal__heading {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .modal__cross {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .modal__total--calculation {
+        margin-bottom: 15px;
+    }
 }
 
 .modal__content.active {

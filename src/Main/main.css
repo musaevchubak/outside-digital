@@ -1,4 +1,4 @@
-.btn {
+.deductionButton {
     color: #ffff;
     background-color: #FF5E56;
     border: 1px solid white;
@@ -6,6 +6,12 @@
     font-weight: 600;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+.deductionButton:hover {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 200;
 }
 
 .modal__title {
@@ -36,13 +42,11 @@
 }
 
 .input__data-monthly-salary {
-    /*color: #ffff;*/
     width: 450px;
     height: 35px;
     border-radius: 3px;
     border: 2px solid #DFE3E6;
     padding: 8px;
-    /*margin-top: 13px;*/
 }
 
 .modal__calculate-monthly-salary {
@@ -76,7 +80,13 @@
     font-weight: 400;
     font-size: 15px;
     margin-right: 25px;
+    cursor: pointer;
 }
+
+.wrapper-payment-term__item-term:hover {
+    background-color: grey;
+}
+
 .modal__what-we-reduce-text {
     align-items: center;
     font-weight: 500;
@@ -96,8 +106,8 @@
 }
 
 .wrapper-payment-term__item-payment:hover {
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #EA0029;
+    color: #ffffff;
 }
 
 .modal__section-what-we-reduce {
@@ -106,7 +116,7 @@
     margin-top: 35px;
 }
 
-.add-early-payment{
+.add-early-payment {
     width: 440px;
     color: #ffff;
     background-color: #FF5E56;
@@ -140,7 +150,7 @@
     font-weight: 500;
 }
 
-.test {
+.modal__calculate-result {
     line-height: 40px;
 }
 
@@ -152,15 +162,14 @@
 
 .modal__description-year {
     padding-left: 20px;
-    color: #DFE3E6;
+    color: #808080;
 }
 
-.modal__description-input-checkbox{
+.modal__description-input-checkbox {
     width: 20px;
     height: 20px;
     border-radius: 6px;
 }
-
 
 input[type=checkbox]:checked {
     -webkit-appearance: none;
@@ -184,4 +193,9 @@ input[type="checkbox"]::before {
     top: -0.3em;
 }
 
-
+.modal__border-content {
+    border-bottom: 2px solid #DFE3E6;
+    height: 2px;
+    width: 100%;
+    text-align: center;
+}
