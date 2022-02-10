@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import "./main.css";
 import Modal from "../Modal/Modal";
+
 const endings = {
   2: 'ой',
   3: 'ий',
@@ -32,7 +33,6 @@ const Main = ({ modalActive, closeModal }) => {
   return (
     <>
       <Modal active={modalActive} setActive={closeModal}>
-        <div className="modal__title">
           <h3 className="modal__heading">Налоговый вычет</h3>
           <span className="modal__cross" onClick={closeModal}>&#10060;</span>
           <p className="modal__description">
@@ -75,7 +75,6 @@ const Main = ({ modalActive, closeModal }) => {
             </div>
           </section>
           <button className="add-early-payment" onClick={closeModal}>Добавить</button>
-        </div>
       </Modal>
     </>
   );

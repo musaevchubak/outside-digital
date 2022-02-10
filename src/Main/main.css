@@ -15,6 +15,7 @@
 }
 
 .modal__title {
+    position: relative;
     width: 100%;
 }
 
@@ -128,6 +129,11 @@
     margin-top: 55px;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    .add-early-payment {
+        margin-top: auto;
+    }
+}
 
 .add-early-payment:hover {
     background-color: #EA0029;
@@ -139,8 +145,8 @@
 
 .modal__cross {
     position: absolute;
-    top: 16px;
-    left: 88%;
+    top: 22px;
+    right: 22px;
     cursor: pointer;
 }
 
