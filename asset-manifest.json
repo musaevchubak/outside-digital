@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/outside-digital/static/css/main.53717bba.css",
+    "main.js": "/outside-digital/static/js/main.3020ff41.js",
+    "index.html": "/outside-digital/index.html",
+    "main.53717bba.css.map": "/outside-digital/static/css/main.53717bba.css.map",
+    "main.3020ff41.js.map": "/outside-digital/static/js/main.3020ff41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53717bba.css",
+    "static/js/main.3020ff41.js"
+  ]
+}
